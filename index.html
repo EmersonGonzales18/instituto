@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/whatsapp.css">
+</head>
+<body>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<a href="https://api.whatsapp.com/send?phone=963957004&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre...%20." class="float" target="_blank">
+<i class="fa fa-whatsapp my-float"></i>
+</a>
+    <header class="head">
+        <img href="#" src="assets/logo.png" class="logo"></img>
+        <button class="abrir-menu">Abrir</button>
+        <nav class="nav">
+            <ul class="navlist">
+            <a href="#">INS</a>
+            <a href="#">Admision</a>
+            <a href="#">Carreras</a>
+            <a href="#">Posgrado</a>
+            <a href="#">Noticias</a>
+        </ul>
+        </nav>
+    </header>
+
+    <section class="home">
+        <div class="container-carousel">
+            <div class="carruseles" id="slider">
+                <section class="slider-section">
+                    <img src="assets/fondo.jpg">
+                </section>
+                <section class="slider-section">
+                    <img src="assets/slide2.jpg">
+                </section>
+                <section class="slider-section">
+                    <img src="assets/slide1.jpg">
+                </section>
+            </div>
+            <div class="btn-left"><</div>
+            <div class="btn-right">></div>
+        </div>
+        <div class="wrapper-login">
+            <h1>Contáctanos</h1>
+            <h5>Elige la opcion que prefieras</h5>
+            <form action="#">
+                <div class="radio-options">
+                    <input type="radio" id="option1" name="option" value="option1">
+                    <label for="option1">PREGRADO</label><br>
+                    <input type="radio" id="option2" name="option" value="option2">
+                    <label for="option2">CARRERAS PARA GENTE QUE TRABAJA (CGT)</label><br>
+                    <input type="radio" id="option3" name="option" value="option3">
+                    <label for="option3">CARRERAS A DISTANCIA</label><br>
+                </div>
+
+                <div class="selected-option">
+                    <select id="selectmode" name="selectMode">
+                        <option value="" disabled selected hidden>¿Cómo te gustaría estudiar?</option>
+                        <option value="hibrido">Híbrido</option>
+                        <option value="Presencial">Presencial</option>
+                        <option value="virtual">Virtual</option>
+                    </select>
+                </div>
+                <div class="selected-option">
+                    <select id="selectcarrer" name="selectCarrer">
+                        <option value="" disabled selected hidden>¿Qué carrera te gustaría estudiar?</option>
+                        <option value="Ing. de Sistemas">Ing. de Sistemas</option>
+                        <option value="Contabilidad">Contabilidad</option>
+                        <option value="Educación">Educación</option>
+                    </select>
+                </div>
+                <p>(*) Los horarios pueden variar según la disponibilidad del cámpus</p>
+                <div class="sacinstitute">
+                    <h6>xxx S.A.C</h6>
+                </div>
+                <div class="rucinstitute">
+                    <h6>RUC 123456</h6>
+                </div>
+                <div class="button">  
+                    <button type="submit" class="btn">Siguiente<ion-icon name="arrow-forward"></ion-icon>
+                    </button> 
+                </div>
+            </form>
+        </div>
+        <div class="bloque-black">
+            <p class="pregunta">¿Porque estudiar en la XXX?</p>
+        </div>
+        <div class="card-container">
+            <div class="card">
+                <img src="assets/premio.png" >
+                <div class="card-text">
+                  <h2>Acreditación Internacional</h2>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio beatae iusto totam cum veniam, nobis aperiam, odit eos eveniet non excepturi ex repellat. Aliquam, quas est quidem tempore corporis repudiandae!</p>
+            </div>
+            </div>
+            <div class="card">
+                <img src="assets/time.png" >
+                <div class="card-text">
+                  <h2>Horarios Flexibles</h2>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio beatae iusto totam cum veniam, nobis aperiam, odit eos eveniet non excepturi ex repellat. Aliquam, quas est quidem tempore corporis repudiandae!</p>
+            </div>
+            </div>
+            <div class="card">
+                <img src="assets/tecnologia.png">
+                <div class="card-text">
+                  <h2>Plataforma Técnologica</h2>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio beatae iusto totam cum veniam, nobis aperiam, odit eos eveniet non excepturi ex repellat. Aliquam, quas est quidem tempore corporis repudiandae!</p>
+            </div>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
