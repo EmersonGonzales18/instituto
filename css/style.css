@@ -19,7 +19,7 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 20px 100px;
+    padding: 20px 50px;
     display: flex;
     justify-content: space-between;
     background-color: white;
@@ -118,7 +118,7 @@ body {
 }
 .wrapper-login {
     position: absolute;
-    margin-top: 9%;
+    margin-top: 7%;
     width: 500px;
     height: 400px;
     right: 100px;
@@ -266,7 +266,7 @@ body {
 /* Estilos regulares */
 /* ... tus estilos regulares ... */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 870px) {
     .card-container {
         flex-direction: column; /* Cambia de fila a columna */
         margin: 15px 25px; /* Agrega espacio entre las tarjetas */
@@ -282,7 +282,7 @@ body {
         align-items: center;
         text-align: center;
         padding: 15px;
-        margin-top: 30px; /* Ajusta el valor según necesites para superponerlo */
+        margin-top: 90px; /* Ajusta el valor según necesites para superponerlo */
     }
     .bloque-black .pregunta {
         margin: 0;
@@ -300,11 +300,18 @@ body {
     }
 }
 
+@media screen and (max-width: 870px) {
+    .wrapper-login{
+        position: relative;
+        margin: auto;
+        left: 3%;
+    }
 
+}
 
 @media screen and (max-width: 1920px){
 .wrapper-login{
-    margin-top: 180px;
+    margin-top: 100px;
     transform: translateY(0);
     z-index: 0;
 }
@@ -314,12 +321,18 @@ body {
     display: flex;
 }
 .abrir-menu{
-    display: none;
+    display: block;
 }
-@media screen and (max-width: 870px) {
+@media screen and (min-width: 870px) {
+    .abrir-menu{
+        display: none;
+    }
+}
 
+@media screen and (max-width: 870px) {
+    
     .nav{
-        display: flex;
+        display: none; /* modificar click */
         flex-direction: column;
         align-items: end;
         position: absolute;
@@ -339,13 +352,5 @@ body {
     }
     .navlist a {
         color: white;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .logo {
-        position: absolute;
-        top: 20px; /* Ajusta este valor según necesites */
-        left: 30px; /* Ajusta este valor según necesites */
     }
 }
