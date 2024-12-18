@@ -2,7 +2,7 @@ const btnLeft = document.querySelector(".btn-left"),
       btnRight = document.querySelector(".btn-right"),
       slider = document.querySelector("#slider"),
       sliderSection = document.querySelectorAll(".slider-section");
-
+console.log("XD");
 
 btnLeft.addEventListener("click", e => moveToLeft())
 btnRight.addEventListener("click", e => moveToRight())
